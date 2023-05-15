@@ -1,0 +1,29 @@
+@font-face {
+    font-family: SF-Pro;
+    src: url(SF-Pro.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: SF-Pro, sans-serif;
+}
+
+nav {
+    padding: 8px;
+    background-color: black;
+    height: 48px;
+}
+
+.logo {
+    float: left;
+}
+
+.links {
+    float: right;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
